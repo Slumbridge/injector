@@ -77,7 +77,7 @@ public class Injection extends InjectData implements InjectTaskHandler
 
 		inject(new CreateAnnotations(this));
 
-		inject(new GraphicsObject(this));
+//		inject(new GraphicsObject(this));
 
 		inject(new CopyRuneLiteClasses(this));
 
