@@ -28,12 +28,12 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.openosrs.injector.injectors.raw;
+package org.slumbridge.injector.injectors.raw;
 
-import com.openosrs.injector.InjectException;
-import com.openosrs.injector.InjectUtil;
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.injectors.AbstractInjector;
+import org.slumbridge.injector.InjectException;
+import org.slumbridge.injector.InjectUtil;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.injectors.AbstractInjector;
 import java.util.HashSet;
 import java.util.ListIterator;
 import java.util.Set;
@@ -53,7 +53,6 @@ import net.runelite.asm.attributes.code.instructions.GetField;
 import net.runelite.asm.attributes.code.instructions.IALoad;
 import net.runelite.asm.attributes.code.instructions.IInc;
 import net.runelite.asm.attributes.code.instructions.ILoad;
-import net.runelite.asm.attributes.code.instructions.IMul;
 import net.runelite.asm.attributes.code.instructions.IStore;
 import net.runelite.asm.attributes.code.instructions.IfNe;
 import net.runelite.asm.attributes.code.instructions.InvokeStatic;

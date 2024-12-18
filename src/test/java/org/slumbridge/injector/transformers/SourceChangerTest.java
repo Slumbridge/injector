@@ -5,13 +5,13 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this source tree.
  */
-package com.openosrs.injector.transformers;
+package org.slumbridge.injector.transformers;
 
-import com.openosrs.injector.InjectException;
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.injectors.Injector;
-import com.openosrs.injector.transformers.srcchangeclasses.NewName;
-import com.openosrs.injector.transformers.srcchangeclasses.OldName;
+import org.slumbridge.injector.InjectException;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.injectors.Injector;
+import org.slumbridge.injector.transformers.srcchangeclasses.NewName;
+import org.slumbridge.injector.transformers.srcchangeclasses.OldName;
 import java.lang.invoke.MethodHandles;
 import java.util.function.BiConsumer;
 import net.runelite.asm.ClassFile;

@@ -5,10 +5,10 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.transformers;
+package org.slumbridge.injector.transformers;
 
 import com.google.common.base.Stopwatch;
-import com.openosrs.injector.injection.InjectData;
+import org.slumbridge.injector.injection.InjectData;
 import lombok.RequiredArgsConstructor;
 import net.runelite.asm.Named;
 import org.gradle.api.logging.Logger;

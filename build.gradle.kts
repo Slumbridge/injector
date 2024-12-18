@@ -46,8 +46,8 @@ dependencies {
 gradlePlugin {
     plugins {
         create("injectorPlugin") {
-            id = "com.openosrs.injector"
-            implementationClass = "com.openosrs.injector.InjectPlugin"
+            id = "org.slumbridge.injector"
+            implementationClass = "org.slumbridge.injector.InjectPlugin"
         }
     }
 }

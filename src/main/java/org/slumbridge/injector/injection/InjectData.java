@@ -5,11 +5,12 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.injection;
+package org.slumbridge.injector.injection;
 
-import com.openosrs.injector.InjectUtil;
-import com.openosrs.injector.injectors.Injector;
-import com.openosrs.injector.rsapi.RSApi;
+import org.slumbridge.injector.InjectUtil;
+import org.slumbridge.injector.Injection;
+import org.slumbridge.injector.injectors.Injector;
+import org.slumbridge.injector.rsapi.RSApi;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,7 +29,7 @@ import net.runelite.deob.deobfuscators.Renamer;
 import net.runelite.deob.util.NameMappings;
 
 /**
- * Abstract class meant as the interface of {@link com.openosrs.injector.Injection injection} for injectors
+ * Abstract class meant as the interface of {@link Injection injection} for injectors
  */
 public abstract class InjectData
 {

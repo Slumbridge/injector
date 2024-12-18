@@ -5,7 +5,7 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.injectors.raw;
+package org.slumbridge.injector.injectors.raw;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -28,8 +28,8 @@ import net.runelite.asm.attributes.code.instructions.Return;
 import net.runelite.asm.pool.Class;
 import net.runelite.asm.pool.Field;
 import net.runelite.asm.signature.Signature;
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.injectors.AbstractInjector;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.injectors.AbstractInjector;
 
 public class JagexLauncherCredentials extends AbstractInjector
 {

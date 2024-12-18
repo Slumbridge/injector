@@ -5,11 +5,11 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.injectors;
+package org.slumbridge.injector.injectors;
 
 import com.google.common.base.Stopwatch;
-import com.openosrs.injector.Injection;
-import com.openosrs.injector.injection.InjectData;
+import org.slumbridge.injector.Injection;
+import org.slumbridge.injector.injection.InjectData;
 import lombok.RequiredArgsConstructor;
 import org.gradle.api.logging.Logger;
 import org.gradle.api.logging.Logging;

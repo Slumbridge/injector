@@ -5,11 +5,11 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.rsapi;
+package org.slumbridge.injector.rsapi;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableMap;
-import com.openosrs.injector.InjectException;
+import org.slumbridge.injector.InjectException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -5,7 +5,7 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.injectors;
+package org.slumbridge.injector.injectors;
 
 import net.runelite.asm.Named;
 

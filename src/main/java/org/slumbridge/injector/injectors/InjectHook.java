@@ -27,12 +27,12 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.openosrs.injector.injectors;
+package org.slumbridge.injector.injectors;
 
 import com.google.common.collect.Lists;
-import com.openosrs.injector.InjectException;
-import com.openosrs.injector.InjectUtil;
-import com.openosrs.injector.injection.InjectData;
+import org.slumbridge.injector.InjectException;
+import org.slumbridge.injector.InjectUtil;
+import org.slumbridge.injector.injection.InjectData;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;

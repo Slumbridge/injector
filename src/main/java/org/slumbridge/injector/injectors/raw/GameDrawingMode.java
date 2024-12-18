@@ -1,8 +1,8 @@
-package com.openosrs.injector.injectors.raw;
+package org.slumbridge.injector.injectors.raw;
 
-import com.openosrs.injector.InjectUtil;
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.injectors.AbstractInjector;
+import org.slumbridge.injector.InjectUtil;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.injectors.AbstractInjector;
 import java.util.ListIterator;
 import net.runelite.asm.ClassFile;
 import net.runelite.asm.Method;

@@ -22,12 +22,12 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.openosrs.injector.injectors.raw;
+package org.slumbridge.injector.injectors.raw;
 
 import com.google.common.io.ByteStreams;
-import com.openosrs.injector.TestInjection;
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.rsapi.RSApi;
+import org.slumbridge.injector.TestInjection;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.rsapi.RSApi;
 import net.runelite.asm.ClassFile;
 import net.runelite.asm.ClassGroup;
 import net.runelite.asm.Field;

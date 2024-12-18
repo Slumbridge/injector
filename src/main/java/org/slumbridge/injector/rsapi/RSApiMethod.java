@@ -5,7 +5,7 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.rsapi;
+package org.slumbridge.injector.rsapi;
 
 import java.util.HashMap;
 import java.util.Map;

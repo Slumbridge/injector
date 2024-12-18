@@ -28,11 +28,11 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.openosrs.injector.injectors.rsapi;
+package org.slumbridge.injector.injectors.rsapi;
 
-import com.openosrs.injector.InjectException;
-import com.openosrs.injector.InjectUtil;
-import com.openosrs.injector.rsapi.RSApiMethod;
+import org.slumbridge.injector.InjectException;
+import org.slumbridge.injector.InjectUtil;
+import org.slumbridge.injector.rsapi.RSApiMethod;
 import java.util.List;
 import net.runelite.asm.ClassFile;
 import net.runelite.asm.Field;

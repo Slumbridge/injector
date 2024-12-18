@@ -5,11 +5,11 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this source tree.
  */
-package com.openosrs.injector;
+package org.slumbridge.injector;
 
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.injectors.Injector;
-import com.openosrs.injector.rsapi.RSApi;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.injectors.Injector;
+import org.slumbridge.injector.rsapi.RSApi;
 import net.runelite.asm.ClassGroup;
 
 public class TestInjection extends InjectData

@@ -1,14 +1,11 @@
-package com.openosrs.injector.transformers;
+package org.slumbridge.injector.transformers;
 
-import com.openosrs.injector.injection.InjectData;
+import org.slumbridge.injector.injection.InjectData;
 
 import net.runelite.asm.ClassFile;
 import net.runelite.asm.Method;
 import net.runelite.asm.attributes.code.Instruction;
 import net.runelite.asm.attributes.code.instructions.InvokeVirtual;
-import net.runelite.asm.pool.Class;
-
-import java.lang.reflect.Field;
 
 public class EnumInvokeVirtualFixer extends InjectTransformer
 {

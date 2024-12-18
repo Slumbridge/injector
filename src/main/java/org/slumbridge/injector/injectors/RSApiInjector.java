@@ -28,17 +28,17 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.openosrs.injector.injectors;
+package org.slumbridge.injector.injectors;
 
-import com.openosrs.injector.InjectException;
-import com.openosrs.injector.InjectUtil;
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.injectors.rsapi.InjectGetter;
-import com.openosrs.injector.injectors.rsapi.InjectInvoke;
-import com.openosrs.injector.injectors.rsapi.InjectSetter;
-import static com.openosrs.injector.rsapi.RSApi.API_BASE;
-import com.openosrs.injector.rsapi.RSApiClass;
-import com.openosrs.injector.rsapi.RSApiMethod;
+import org.slumbridge.injector.InjectException;
+import org.slumbridge.injector.InjectUtil;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.injectors.rsapi.InjectGetter;
+import org.slumbridge.injector.injectors.rsapi.InjectInvoke;
+import org.slumbridge.injector.injectors.rsapi.InjectSetter;
+import static org.slumbridge.injector.rsapi.RSApi.API_BASE;
+import org.slumbridge.injector.rsapi.RSApiClass;
+import org.slumbridge.injector.rsapi.RSApiMethod;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

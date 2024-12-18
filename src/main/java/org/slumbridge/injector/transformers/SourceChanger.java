@@ -5,9 +5,9 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector.transformers;
+package org.slumbridge.injector.transformers;
 
-import com.openosrs.injector.injection.InjectData;
+import org.slumbridge.injector.injection.InjectData;
 import net.runelite.asm.ClassFile;
 
 /**

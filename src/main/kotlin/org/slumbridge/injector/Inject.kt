@@ -5,9 +5,9 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this source tree.
  */
-package com.openosrs.injector
+package org.slumbridge.injector
 
-import com.openosrs.injector.injection.InjectTaskHandler
+import org.slumbridge.injector.injection.InjectTaskHandler
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.RegularFileProperty
 import org.gradle.api.tasks.CacheableTask

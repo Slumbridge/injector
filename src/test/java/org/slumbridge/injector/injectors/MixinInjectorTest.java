@@ -22,10 +22,10 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.openosrs.injector.injectors;
+package org.slumbridge.injector.injectors;
 
-import com.openosrs.injector.TestInjection;
-import com.openosrs.injector.rsapi.RSApi;
+import org.slumbridge.injector.TestInjection;
+import org.slumbridge.injector.rsapi.RSApi;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collections;

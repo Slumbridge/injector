@@ -1,15 +1,13 @@
-package com.openosrs.injector.injectors.raw;
+package org.slumbridge.injector.injectors.raw;
 
-import com.openosrs.injector.Injection;
-import com.openosrs.injector.injection.InjectData;
-import com.openosrs.injector.injectors.AbstractInjector;
+import org.slumbridge.injector.injection.InjectData;
+import org.slumbridge.injector.injectors.AbstractInjector;
 import java.util.List;
 import java.util.ListIterator;
 import net.runelite.asm.ClassFile;
 import net.runelite.asm.Method;
 import net.runelite.asm.attributes.code.Instruction;
 import net.runelite.asm.attributes.code.Instructions;
-import net.runelite.asm.attributes.code.instructions.BiPush;
 import net.runelite.asm.attributes.code.instructions.ILoad;
 import net.runelite.asm.attributes.code.instructions.LDC;
 

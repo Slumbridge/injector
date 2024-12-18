@@ -5,13 +5,13 @@
  * This code is licensed under GPL3, see the complete license in
  * the LICENSE file in the root directory of this submodule.
  */
-package com.openosrs.injector;
+package org.slumbridge.injector;
 
-import com.openosrs.injector.injection.InjectData;
-import static com.openosrs.injector.rsapi.RSApi.API_BASE;
-import static com.openosrs.injector.rsapi.RSApi.RL_API_BASE;
-import com.openosrs.injector.rsapi.RSApiClass;
-import com.openosrs.injector.rsapi.RSApiMethod;
+import org.slumbridge.injector.injection.InjectData;
+import static org.slumbridge.injector.rsapi.RSApi.API_BASE;
+import static org.slumbridge.injector.rsapi.RSApi.RL_API_BASE;
+import org.slumbridge.injector.rsapi.RSApiClass;
+import org.slumbridge.injector.rsapi.RSApiMethod;
 import java.util.List;
 import java.util.Set;
 import java.util.function.Consumer;
