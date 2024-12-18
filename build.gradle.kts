@@ -14,8 +14,8 @@ plugins {
     `maven-publish`
 }
 
-group = "dev.openrune"
-version = "1.0.1"
+group = "org.slumbridge"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
